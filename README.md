@@ -53,6 +53,7 @@ https://okalll.github.io/Quiz-board/
 
 ## License
 MIT license **Okall Vivian**
+
 The MIT License
 
 Copyright (c) 2010-2018 Google, Inc. http://angularjs.org

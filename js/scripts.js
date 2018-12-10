@@ -1,5 +1,6 @@
 function quizBoard(){
 
+
   var one = document.querySelector('input[name="ans1"]:checked').value;
   var two = document.querySelector('input[name="ans2"]:checked').value;
   var three = document.querySelector('input[name="ans3"]:checked').value;
@@ -26,8 +27,10 @@ function quizBoard(){
   if(five === "1"){
     count +=20;
   }
+
   console.log(count)
 
-  document.getElementById("after_submit").style.visibility="visible";
-  document.getElementById("number_count").innerHTML= "You got " +count+ " correct";
+  document.getElementById("submit").style.visibility="visible";
+  document.getElementById("count").innerHTML= "You got " +count+ " %";
+
 }

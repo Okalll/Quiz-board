@@ -1,10 +1,12 @@
 .jumbotron>h1{
   text-align: center;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 body{
-  background-image: url(https://cdn3.f-cdn.com/contestentries/760190/19478885/57cab3b9c568f_thumb900.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: inherit;
   font-family: 'Rancho', cursive;
+  font-size: 25px;
+}
+.submit{
+  text-align: center;
 }

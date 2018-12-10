@@ -10,3 +10,6 @@ body{
 .submit{
   text-align: center;
 }
+#count{
+  display: none;
+}

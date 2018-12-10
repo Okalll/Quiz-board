@@ -33,4 +33,8 @@ function quizBoard(){
   document.getElementById("submit").style.visibility="visible";
   document.getElementById("count").innerHTML= "You got " +count+ " %";
 
+  $("#quiz").hide();
+  $("#count").show();
+  event.preventDefault();
+
 }

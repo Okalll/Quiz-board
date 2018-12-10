@@ -44,7 +44,7 @@ It will be graded when you submit the answers at the end.
 
 ### Link to live website.
 
-file:///home/moringa/Documents/Quiz-board/index.html
+https://okalll.github.io/Quiz-board/
 
 ## License
 MIT license **Okall Vivian**

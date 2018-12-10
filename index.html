@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+
     <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
     <title>QUIZ BOARD</title>
   </head>
@@ -13,56 +13,63 @@
 
       <h1>QUIZ BOARD</H1>
 
-        <p>Test your Javascript knowledge with the help of the questions below</p>
+        <p class="p">Test your Javascript knowledge with the help of the questions below</p>
         <br>
         <form name="quiz">
         <h2>Which one of the following is not a primary data type in Javascript?</h2>
 
-          <input type="radio" name="ans-1" value="1">string<br>
+          <input type="radio" name="ans1" value="1">string<br>
 
-          <input type="radio" name="ans-1" value="2">number<br>
+          <input type="radio" name="ans1" value="2">number<br>
 
-          <input type="radio" name="ans-1" value="3">boolean<br>
+          <input type="radio" name="ans1" value="3">boolean<br>
 
-          <input type="radio" name="ans-1" value="4">null<br>
+          <input type="radio" name="ans1" value="4">null<br>
 
         <h2>Which one below was not originally a Javascript name?</h2>
 
-          <input type="radio" name="ans-2" value="1">mocha<br>
+          <input type="radio" name="ans2" value="1">mocha<br>
 
-          <input type="radio" name="ans-2" value="2">livescript<br>
+          <input type="radio" name="ans2" value="2">livescript<br>
 
-          <input type="radio" name="ans-2" value="3">ECMAScript<br>
+          <input type="radio" name="ans2" value="3">ECMAScript<br>
+
+          <input type="radio" name="ans2" value="4">Javascript<br>
 
         <h2>Which one is not a Javascript error?</h2>
 
-          <input type="radio" name="ans-3" value="1">Load-time<br>
+          <input type="radio" name="ans3" value="1">Load-time<br>
 
-          <input type="radio" name="ans-3" value="2">Run-time<br>
+          <input type="radio" name="ans3" value="2">Run-time<br>
 
-          <input type="radio" name="ans-3" value="3">Logical<br>
+          <input type="radio" name="ans3" value="3">Logical<br>
 
-          <input type="radio" name="ans-3" value="4">Numerical<br>
+          <input type="radio" name="ans3" value="4">Numerical<br>
 
         <h2>Does Javascript support automatic type conversion?</h2>
 
-          <input type="radio" name="ans-4" value="1">Yes<br>
+          <input type="radio" name="ans4" value="1">Yes<br>
 
-          <input type="radio" name="ans-4" value="2">No<br>
+          <input type="radio" name="ans4" value="2">No<br>
 
         <h2>Select a special data type from the ones below</h2>
 
-          <input type="radio" name="ans-5" value="1">Undefined<br>
+          <input type="radio" name="ans5" value="1">Undefined<br>
 
-          <input type="radio" name="ans-5" value="2">object<br>
+          <input type="radio" name="ans5" value="2">object<br>
 
-          <input type="radio" name="ans-5" value="3">Array<br>
+          <input type="radio" name="ans5" value="3">Array<br>
 
-          <input type="radio" name="ans-5" value="4">Boolean<br>
+          <input type="radio" name="ans5" value="4">Boolean<br>
           <br>
-        <button class="submit">Submit!</button>
+        <button type="button" class="submit" onclick="quizBoard()">Submit!</button>
       </form>
+      <div id ="after_submit">
+        <p id ="number_count"></p>
+      </div>
       </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script type ="text/javascript" src="js/scripts.js"></script>
   </body>
 </html>

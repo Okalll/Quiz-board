@@ -1,12 +1,33 @@
-var answers=[]
-     scores=0;
-  questions=["ans","ans","ans","ans","ans"];
+function quizBoard(){
 
-functions sum(){
-  scores = answers[0]+answer[1]+answer[2]+answer[3]+answer[4]
-  return points;
-}
+  var one = document.querySelector('input[name="ans1"]:checked').value;
+  var two = document.querySelector('input[name="ans2"]:checked').value;
+  var three = document.querySelector('input[name="ans3"]:checked').value;
+  var four = document.querySelector('input[name="ans4"]:checked').value;
+  var five = document.querySelector('input[name="ans5"]:checked').value;
+  var count = 0;
 
-$(document).ready(function){
-  
+  if(one === "4"){
+    count +=20;
+  }
+
+  if(two === "4"){
+    count +=20;
+    }
+
+  if(three === "4"){
+    count +=20;
+    }
+
+  if(four === "1"){
+    count +=20;
+  }
+
+  if(five === "1"){
+    count +=20;
+  }
+  console.log(count)
+
+  document.getElementById("after_submit").style.visibility="visible";
+  document.getElementById("number_count").innerHTML= "You got " +count+ " correct";
 }

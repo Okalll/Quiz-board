@@ -1586,7 +1586,7 @@ pre code {
   padding-left: 150px;
   margin-right: auto;
   margin-left: auto;
-  background-color: blue;
+  background-image: url(https://cdn1.vectorstock.com/i/1000x1000/20/15/fun-yellow-background-vector-21942015.jpg);
 }
 @media (min-width: 768px) {
   .container {
@@ -4962,6 +4962,7 @@ a.badge:focus {
   margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
+  opacity: 0.9;
 }
 .jumbotron h1,
 .jumbotron .h1 {

@@ -47,6 +47,6 @@ It will be graded when you submit the answers at the end.
 file:///home/moringa/Documents/Quiz-board/index.html
 
 ## License
-MIT license *Okall Vivian*
+MIT license **Okall Vivian**
 
  

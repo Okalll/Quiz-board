@@ -42,6 +42,11 @@ Right answer
 ### Output
 It will be graded when you submit the answers at the end.
 
+### Known bugs
+For now there are no know bugs but if you find any you can reach out to me through:
+
+vivieokall@gmail.com
+
 ### Link to live website.
 
 https://okalll.github.io/Quiz-board/

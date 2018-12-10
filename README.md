@@ -33,3 +33,15 @@ Wrong answer
 
 ### Output
 The wrong answer will not be graded
+
+-When the right answers have been submitted
+
+### Input
+Right answer
+
+### Output
+It will be graded when you submit the answers at the end.
+
+### Link to live website.
+
+ 

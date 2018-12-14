@@ -1,7 +1,7 @@
 # Javascript QuizBoard
 This is a project or an application that enables a person to answer questions and be graded by the application.
 # Created by:
-##OKALL VIVIAN.
+## OKALL VIVIAN.
 ## Description
 This is a Javascript Application that enables any particular person especially High School student to test their Javascript knowledge using the questions given.In the end the student is graded by the application depending on the questions they got correct.
 ## Set-up/Inatallation requirements
